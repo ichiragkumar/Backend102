@@ -1,5 +1,5 @@
 import mongoose from "momgoose"
-import { mongo } from "mongoose"
+
 
 
 const orderItemSchema = new mongoose.Schema({
@@ -40,4 +40,4 @@ const orderSchema = new mongoose.Schema({
 }, {timestamps:true})
 
 
-export const Product = mongoose.model("Order", orderSchema)
+export const Order = mongoose.model("Order", orderSchema)
